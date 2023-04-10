@@ -1,23 +1,137 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-  box-sizing: border-box;
-  /* google font bellow */
-  /* font-family: 'Caveat Brush', cursive; */
+.app {
+  width: 100%;
+  height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d4dce2;
+  /* flex-basis: auto; */ 
+  /* align-items: center; */
+  color: black;
 }
-  
 
-body{
-
-   width: 100vw;
-
-   height: 100vh;
-  background-image: linear-gradient(to bottom, #051937, #1a2d4f, #2d4369, #415a83, #55729f);
+.container{
+  /* width:100%;
+  height: 100vh; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-weight: 400;
 }
-  
-  
+
+.nameBox{
+  flex-grow: 1;
+}
+
+.imgBox{
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex:wrap;
+}
+
+.nameTitle{
+  font-family: 'M PLUS 1 Code', sans-serif;
+  color: black;
+}
+
+.description{
+  flex-grow: 1;
+  flex-shrink:3;
+ border-radius: 10px;
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: gray 5px 15px 20px;
+
+}
+
+.skills{
+/* padding-top: 50em; */
+  /* width:100%; */
+  /* height: 200vh; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink:3;
+ border-radius: 10px;
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: gray 5px 15px 20px;
+}
+
+.list{
+  list-style-type : none;
+
+}
+
+
+
+
+/* About me  */
+
+.aboutParagraph{
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 1px solid rgb(244, 246, 249);
+  background-color: #f1f3f7;
+  border-radius: 10px;
+  box-shadow: gray 5px 15px 10px;
+  padding: 20px;
+
+}
+
+
+
+
+
+.footer {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 100px;   /* Height of the footer */
+  background: #393b42;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .App {
   text-align: center;
   
