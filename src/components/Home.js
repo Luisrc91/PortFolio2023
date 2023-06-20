@@ -11,7 +11,7 @@ export default function Home() {
       <div className="imgBox">
       <img
         style={{ width: "30%", borderRadius: "100px", justifyContent: "center"}}
-        src="https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"
+        src="https://avatars.githubusercontent.com/u/114416320?v=4"
       />      
       </div>
       
@@ -27,17 +27,17 @@ export default function Home() {
         <ol className="list">
           <li className="item">
             <h2> Front-End</h2>
-            <span>ReactJS, Redux, HTML, CSS, NPM, BootStrap, TailwindCSS,</span>
+            <span>ReactJS, Redux, HTML, CSS, BootStrap, TailwindCSS,</span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>NodeJS, ExpressJS, MySQL, MongoDB, AWS, SQL,
-            Back-End Development & APIs 
+            Back-End Development & APIs, IAM, AWS
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Python </span>
+            <span>JavaScript, Python, TypeSCript </span>
           </li>
         </ol>
       </div>

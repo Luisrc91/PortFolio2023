@@ -43,7 +43,7 @@
   padding: 20px;
   margin: 20px;
   background-color: white;
-  box-shadow: gray 5px 15px 20px;
+  /* box-shadow: gray 5px 15px 20px; */
 
 }
 
@@ -104,13 +104,20 @@
 
 
 
+@media screen and (max-width: 992px) {
+  .app {
+    /* max-width: 992rem; */
+    background-color: blue;
+  }
+}
 
-
-
-
-
-
-
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .app {
+    max-width: 400rem;
+    background-color: olive;
+  }
+}
 
 
 
